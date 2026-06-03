@@ -22,13 +22,13 @@ VALUES ('SPY',  'SPDR S&P 500 ETF Trust', 'etf', 'equity', 'large_cap');
 INSERT INTO renaissance_team2.holdings_current (customer_id, ticker, purchase_date, purchase_price, quantity)
 VALUES (1, 'UTHR', '2021-06-01', 177.820007, 5965246);
 INSERT INTO renaissance_team2.holdings_current (customer_id, ticker, purchase_date, purchase_price, quantity)
-VALUES(1, 'PLTR', '2021-06-01', 23.059999, 44336516);
+VALUES (1, 'PLTR', '2021-06-01', 23.059999, 44336516);
 INSERT INTO renaissance_team2.holdings_current (customer_id, ticker, purchase_date, purchase_price, quantity)
-VALUES(1, 'AAPL', '2021-06-01', 121.142166, 6435249);
+VALUES (1, 'AAPL', '2021-06-01', 121.142166, 6435249);
 INSERT INTO renaissance_team2.holdings_current (customer_id, ticker, purchase_date, purchase_price, quantity)
-VALUES(1, 'KGC',  '2021-06-01', 7.411746,  105181695);
+VALUES (1, 'KGC',  '2021-06-01', 7.411746,  105181695);
 INSERT INTO renaissance_team2.holdings_current (customer_id, ticker, purchase_date, purchase_price, quantity)
-VALUES(1, 'MU',   '2021-06-01', 82.070419, 8876037);
+VALUES (1, 'MU',   '2021-06-01', 82.070419, 8876037);
 INSERT INTO renaissance_team2.holdings_current (customer_id, ticker, purchase_date, purchase_price, quantity)
-VALUES(1, 'VRSN', '2021-06-01', 213.836044, 2988271);
+VALUES (1, 'VRSN', '2021-06-01', 213.836044, 2988271);
 
