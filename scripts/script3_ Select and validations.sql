@@ -2,6 +2,7 @@
 select count(customer_id) num_customers from renaissance_team2.customer_dim;
 select count(ticker) num_tickers from renaissance_team2.ticker_dim;
 select count(ticker) num_tickers_portfolio from renaissance_team2.holdings_current;
+select count(ticker) num_historical_data from renaissance_team2.pricing_daily_adjusted;
 
 #Customer portfolio - visualization
 select
