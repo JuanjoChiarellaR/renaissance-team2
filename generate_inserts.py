@@ -21,7 +21,7 @@ for ticker in tickers:
     for _, row in df.iterrows():
         date = row['Date']
         value = round(row['Adj Close'], 6)
-        sql = f"INSERT INTO renaissance_team2.pricing_daily_adjusted (ticker, date, value) VALUES ('{ticker}', '{date}', {value:.6f});\n"
+        sql = f"INSERT INTO renaissance_team2.fct_pricing_daily (ticker, date, value) VALUES ('{ticker}', '{date}', {value:.6f});\n"
         output.write(sql)
 
 output.close()
